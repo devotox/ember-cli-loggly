@@ -3,9 +3,8 @@
     'use strict';
 
     return {
-      __esModule: true,
       'default': self['_LTracker'],
-      LogglyTracker: self['LogglyTracker']
+      __esModule: true
     };
   }
 
