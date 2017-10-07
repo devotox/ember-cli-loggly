@@ -1,26 +1,17 @@
-# ember-cli-loggly
+# ember-loggly
 
-This README outlines the details of collaborating on this Ember addon.
+[![Ember Observer Score](http://emberobserver.com/badges/ember-loggly.svg)](http://emberobserver.com/addons/ember-loggly)
+[![Build Status](https://travis-ci.org/devotox/ember-loggly.svg)](http://travis-ci.org/devotox/ember-loggly)
+[![Coverage Status](https://coveralls.io/repos/github/devotox/mber-loggly/badge.svg)](https://coveralls.io/github/devotox/ember-loggly)
+[![NPM Version](https://badge.fury.io/js/ember-loggly.svg)](http://badge.fury.io/js/ember-loggly)
+[![NPM Downloads](https://img.shields.io/npm/dm/ember-loggly.svg)](https://www.npmjs.org/package/ember-loggly)
+[![Greenkeeper](https://badges.greenkeeper.io/devotox/ember-loggly.svg)](https://greenkeeper.io/)
+
+## Description
+Simple wrapper around loggly to allow usage in ember applications
 
 ## Installation
+* `ember install ember-loggly`
 
-* `git clone <repository-url>` this repository
-* `cd ember-cli-loggly`
-* `npm install`
-
-## Running
-
-* `ember serve`
-* Visit your app at [http://localhost:4200](http://localhost:4200).
-
-## Running Tests
-
-* `npm test` (Runs `ember try:each` to test your addon against multiple Ember versions)
-* `ember test`
-* `ember test --server`
-
-## Building
-
-* `ember build`
-
-For more information on using ember-cli, visit [https://ember-cli.com/](https://ember-cli.com/).
+#### License
+MIT license.
