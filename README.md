@@ -10,6 +10,8 @@
 ## Description
 Simple wrapper around loggly to allow usage in ember applications
 
+[DEMO](http://devotox.github.io/ember-cli-loggly)
+
 ## Installation
 * `ember install ember-cli-loggly`
 
