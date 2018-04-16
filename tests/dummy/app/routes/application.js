@@ -1,8 +1,8 @@
-import Ember from 'ember';
+import Route from '@ember/routing/route';
 
 import Loggly from 'ember-cli-loggly';
 
-export default Ember.Route.extend({
+export default Route.extend({
 	setupController() {
 		this.controller.set('loggly', JSON.stringify(Loggly, null, 4));
 	}
