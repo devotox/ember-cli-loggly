@@ -1,16 +1,13 @@
 {
   "name": "ember-cli-loggly",
-  "version": "0.0.0",
-  "description": "The default blueprint for ember-cli addons.",
+  "version": "2.0.0",
+  "description": "Wrapper for Loggly to add to ember plugins",
   "keywords": [
-    "ember-addon"
+    "ember-addon",
+    "loggly"
   ],
   "license": "MIT",
   "author": "Devonte Emokpae",
-  "directories": {
-    "doc": "doc",
-    "test": "tests"
-  },
   "repository": "https://github.com/devotox/ember-cli-loggly",
   "scripts": {
     "build": "ember build",
