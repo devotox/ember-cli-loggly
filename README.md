@@ -27,6 +27,9 @@ Usage
 
 `import loggly from 'ember-cli-loggly'`
 
+- Also comes with a service for easy initialization of loggly
+- Service has a simple push function proxy to `Loggly.push`
+
 Contributing
 ------------------------------------------------------------------------------
 
