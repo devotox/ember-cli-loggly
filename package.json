@@ -1,6 +1,6 @@
 {
   "name": "ember-cli-loggly",
-  "version": "2.0.3",
+  "version": "2.0.4",
   "description": "Wrapper for Loggly to add to ember plugins",
   "keywords": [
     "ember-addon",
