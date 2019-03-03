@@ -45,8 +45,6 @@ module.exports = function(environment) {
 
   if (environment === 'production') {
     // here you can enable a production-specific feature
-    ENV.locationType = 'hash';
-    ENV.rootURL = '/ember-cli-loggly/';
   }
 
   return ENV;

@@ -1,9 +1,10 @@
 'use strict';
 
-var FastbootTransform = require('fastboot-transform');
+const { name } = require('./package');
+const FastbootTransform = require('fastboot-transform');
 
 module.exports = {
-  name: 'ember-cli-loggly',
+  name,
   options: {
     nodeAssets: {
       'loggly-jslogger': {
