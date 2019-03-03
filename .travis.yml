@@ -69,7 +69,7 @@ install:
 
 script:
   - node_modules/.bin/ember try:one $EMBER_TRY_SCENARIO
-  
+
 notifications:
   webhooks:
     urls:
@@ -82,3 +82,12 @@ notifications:
   slack:
     rooms:
       secure: Ma+DYa3Sd9lyI4dzb5OlQNHRQAD/cQeNSwNgXTX9W6zl1Ul9jopQlUoQoDPLEF0cdVeVFE8pTB/Tr4KRRAP4kICsG7/eFwwQVPdpjNfoRoUn3QoxFGUMTla5hkM/3hLGCV+vkOPs4FU92UWVJXHs3obNxMD6wabSxkNXlTIKK6+oN1ugbUpDm1JIUSi+MLb96Rl8OZfQkKgCxXQKFjZ1CSWcFgafeRZJkKHlh9ZsAtTg5r/SAyd6R/1yc5EHqSqlt+Djm8B/JnALUTR+IMBuJK9QVQlflmQz1qmI56kk57oiuy1eYSFAEgOwr1oNPhwyQaXRZDTk9Ss52SB+qNSg/cZ8oXSttEWCY3fT43puDotxHWMFL6WO2+Hj+eWgLtNBsJ9UZOK/A9xcjMMQUOwRdts1GiEzVZkKltsxVmLOzlR1Cpwbg/QWZrBc/l+27v8OjhJf+VC72oQO24Y+BrDBPqe2mlvrc6dL9e22ngWoWR672IZGWZ14Ix5dE/fbgxJzlDmXbgJ9hGHFPgZCRHT8ytVPM+HgEjWrmrfwWpjI5vqk9V2uUW8vj0UMRpS91DMHqDFjXiaUxiGRx7Wr+ZdybOIp7fOMDU5cz0bcPIC7z4d+fDoRevam5Ppzv5Lp0YkpOJnAdxY3VAUmxID24wG8nURk+S5BZGhoSk/VPXvZ7Js=
+
+deploy:
+  provider: npm
+  email: devo.tox.89@gmail.com
+  api_key:
+    secure: doREM3PNH6suReSddJBPdFvOViesX/KjWTLpOir9cu6r0PwPwJRfpkCzfqZPZM7cJGi6Lu99e/IXjUMXzjD/O1g0E/+bzVNBpVWTf5bjJTckFGOwyK4FIDszONcJvxl7jVAPK7KmWIw3MTuBrMARJFRwPrK/LgTOaIWW2/6nKRLsPpPiedG/bNf7hr9sPFI8Wf82xRy1TxPm6axth0bDSJrgq8q7CR8TiNwP7KCKQWKu0T5ST/M0c7SJ+w8Ix+ulUh1oQkOb6zVkWb0c1Nea5i9LNOu0heqcFBpDY/6lCxY5E9M/vUhzNEf3e1jpsFE1X0Z9Ph6qptAULrFBfBZDuMNLCo+jBGpBnGMcuYi/0lHNl7QcApaXOx3emWIbgXwVSau+GxRKz2wAqY5wFflVIEyq9F0UGtcfvnfx0Do497h0dsD6c2DZlGoTU8qoTqWp2OfE2EoOvzqfWNXfjrJQ9D/IyJHeF26tyEjz6v8BmxtWcdG/Q37KLbTiwBYQNW8s/Mzih0Dket1084nz5Suwm936DW8tqxg/Mhd7ePgrjaj/WV+fyZLzhGgI/hHBekh7QyyYqTccKbeJcJLL3eKt7mWUFqXFHOlLc7/ahYmJaplLnDxwWPKD47HX3HsfJusUw+mG4nnpVmctbEu4SDj2xDym9Pz4+e7t06/vO3XfrUE=
+  on:
+    tags: true
+    repo: devotox/ember-cli-loggly
