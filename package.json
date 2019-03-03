@@ -15,6 +15,7 @@
   },
   "scripts": {
     "test": "ember test",
+    "lint:js": "eslint .",
     "build": "ember build",
     "start": "ember serve",
     "precommit": "lint-staged",
@@ -28,7 +29,6 @@
     "release-major": "npm version major",
     "postversion": "git push && git push --tags",
     "deploy:release": "npm run release; npm run deploy",
-    "lint:js": "eslint ./*.js addon addon-test-support app config lib server test-support tests",
     "format": "find app addon config tests -name '*.js' -type f | xargs prettier --write | xargs eslint --fix",
     "nearley": "nearleyc app/grammar/index.ne -o app/grammar/index.js; node app/grammar/parser.js; rm -rf app/grammar/index.js",
     "deploy": "ember github-pages:commit --message \"Deploy gh-pages from commit $(git rev-parse HEAD)\"; git push origin gh-pages; git checkout master",
