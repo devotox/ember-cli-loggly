@@ -21,7 +21,7 @@ module.exports = {
   included() {
     this._super.included.apply(this, arguments);
     
-    this.import ('vendor/loggly-jslogger/loggly.tracker.js');
-    this.import ('vendor/shims/loggly.js');
+    this.import('vendor/loggly-jslogger/loggly.tracker.js');
+    this.import('vendor/shims/loggly.js');
   }
 };
