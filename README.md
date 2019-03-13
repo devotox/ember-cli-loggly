@@ -14,13 +14,11 @@ Simple wrapper around loggly to allow usage in ember applications
 
 [DEMO](http://devotox.github.io/ember-cli-loggly)
 
-
 Compatibility
 ------------------------------------------------------------------------------
 
 * Ember.js v2.18 or above
 * Ember CLI v2.13 or above
-
 
 Installation
 ------------------------------------------------------------------------------
