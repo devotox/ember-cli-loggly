@@ -3,8 +3,8 @@
 [![Coverage Status](https://codecov.io/gh/devotox/ember-cli-loggly/branch/master/graph/badge.svg)](https://codecov.io/gh/devotox/ember-cli-loggly)
 [![NPM Version](https://badge.fury.io/js/ember-cli-loggly.svg)](http://badge.fury.io/js/ember-cli-loggly)
 [![NPM Downloads](https://img.shields.io/npm/dm/ember-cli-loggly.svg)](https://www.npmjs.org/package/ember-cli-loggly)
-[![Dependency Status](https://david-dm.org/poetic/ember-cli-loggly.svg)](https://david-dm.org/poetic/ember-cli-loggly)
-[![DevDependency Status](https://david-dm.org/poetic/ember-cli-loggly/dev-status.svg)](https://david-dm.org/poetic/ember-cli-loggly#info=devDependencies)
+[![Dependency Status](https://david-dm.org/devotox/ember-cli-loggly.svg)](https://david-dm.org/devotox/ember-cli-loggly)
+[![DevDependency Status](https://david-dm.org/devotox/ember-cli-loggly/dev-status.svg)](https://david-dm.org/devotox/ember-cli-loggly#info=devDependencies)
 [![Greenkeeper](https://badges.greenkeeper.io/devotox/ember-cli-loggly.svg)](https://greenkeeper.io/)
 
 ember-cli-loggly
@@ -12,7 +12,7 @@ ember-cli-loggly
 
 Simple wrapper around loggly to allow usage in ember applications
 
-[DEMO](http://devotox.github.io/ember-cli-loggly)
+[DEMO](https://devotox.github.io/ember-cli-loggly)
 
 Compatibility
 ------------------------------------------------------------------------------
